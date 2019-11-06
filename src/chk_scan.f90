@@ -1,5 +1,5 @@
 PROGRAM chk_scan
-        ! checks the generation of tetrahedrons by scanning the BZ.
+        ! checks the procedure to generation of tetrahedrons by scanning the BZ.
         use declarations
         use compute
         use readio
