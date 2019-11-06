@@ -160,6 +160,7 @@ MODULE compute
        
 
         subroutine scan_BZ2(ik1, ik2, ik3, k, dk, c_m)
+        ! does the same job as scan_BZ but needs extra parameters
         ! Given a k-point inside the BZ and the grid spacing, 
         ! create the corners of the submesh cell.
         ! k is designated "vertex 3" in accordance with Blochl 1994.
